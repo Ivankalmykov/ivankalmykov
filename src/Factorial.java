@@ -1,9 +1,9 @@
 public class Factorial {
     public static void main(String[] args) {
-        int a = 1;
+        int naturalNumber = 1;
         for (int i = 1; i < 7; i++) {
-            a = a * i;
+            naturalNumber = naturalNumber * i;
         }
-        System.out.println(a);
+        System.out.println(naturalNumber);
     }
 }
