@@ -2,12 +2,12 @@ public class Fibonacci {
     public static void main(String[] args) {
         int firstNumber = 0;
         int nextNumber = 1;
-        int fibonacci;
+        int sumTwoPrevious;
         for (int i = 0; i < 10 ; i++) {
-            fibonacci = firstNumber + nextNumber;
+            sumTwoPrevious = firstNumber + nextNumber;
             firstNumber = nextNumber;
-            nextNumber = fibonacci;
-            System.out.print(fibonacci +" ");
+            nextNumber = sumTwoPrevious;
+            System.out.print(sumTwoPrevious +" ");
         }
     }
 }
