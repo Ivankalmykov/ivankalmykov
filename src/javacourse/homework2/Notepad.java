@@ -15,13 +15,11 @@ public class Notepad {
         }
         array[count] = s;
         count++;
-
     }
     public static void delete() {
         array[count-1]=null;
         count--;
     }
-
     public static void print(){
         for(int i = 0; i< array.length; i++) {
             if(array[i] == null)
@@ -29,5 +27,4 @@ public class Notepad {
             System.out.println(array[i]);
         }
     }
-
 }
