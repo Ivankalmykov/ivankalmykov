@@ -10,7 +10,7 @@ public class Notepad {
 
     public static void add(String s) {
         if (count >= array.length){
-            String[] newArray = Arrays.copyOf(array, 10*2);
+            String[] newArray = Arrays.copyOf(array, array.length*2);
              array = newArray;
         }
         array[count] = s;
