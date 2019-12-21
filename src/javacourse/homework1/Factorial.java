@@ -1,3 +1,5 @@
+package javacourse.homework1;
+
 public class Factorial {
     public static void main(String[] args) {
         int naturalNumber = 1;

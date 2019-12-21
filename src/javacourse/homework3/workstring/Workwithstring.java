@@ -1,4 +1,4 @@
-package javacourse.homework3;
+package javacourse.homework3.workstring;
 
 import java.util.Arrays;
 
